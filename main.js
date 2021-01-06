@@ -1,8 +1,7 @@
 const api = {
-    key: "7b97bd9b9e57814419d022a846fd61cf",
-    base: "https://api.openweathermap.org/data/2.5"
-
-  }
+    key: "ff041ffd53dc7fb71e75b4d5922c3bfb",
+    base: "https://api.openweathermap.org/data/2.5/&appid=ff041ffd53dc7fb71e75b4d5922c3bfb"
+            }
   
   const searchbox = document.querySelector('.search-box');
   searchbox.addEventListener('keypress', setQuery);
